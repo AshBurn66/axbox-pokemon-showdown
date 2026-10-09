@@ -26,7 +26,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		section: "S/V Singles",
 	},
 	{
-		name: "[Gen 9] My Fakemon Format",
+		name: "[Gen 9] AxBox Format",
 		mod: '_myfakemons',
 		ruleset: ['Standard', 'Evasion Abilities Clause', '!Sleep Clause Mod'],
 		banlist: [],
