@@ -1,5 +1,5 @@
 export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormatsDataTable = {
 	fakemon: {
-		tier: "AxMons",
+		tier: "UU",
 	},
 };
