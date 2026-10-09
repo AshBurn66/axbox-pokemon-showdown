@@ -26,6 +26,12 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		section: "S/V Singles",
 	},
 	{
+		name: "[Gen 9] My Fakemon Format",
+		mod: '_myfakemons',
+		ruleset: ['Standard', 'Evasion Abilities Clause', '!Sleep Clause Mod'],
+		banlist: [],
+	},
+	{
 		name: "[Gen 9] Random Battle",
 		desc: `Randomized teams of Pok&eacute;mon with sets that are generated to be competitively viable.`,
 		mod: 'gen9',
