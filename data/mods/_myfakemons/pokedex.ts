@@ -1,5 +1,6 @@
 export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable = {
 	fakemon: {
+		gen: 9,
 		num: -1,
 		name: "Fakemon",
 		types: ["Fire", "Ghost"],
