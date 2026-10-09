@@ -28,8 +28,8 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	{
 		name: "[Gen 9] AxBox Format",
 		mod: '_myfakemons',
-		ruleset: ['Standard', 'Evasion Abilities Clause', '!Sleep Clause Mod'],
-		banlist: [],
+		ruleset: ['Evasion Abilities Clause', '!Sleep Clause Mod'],
+		banlist: ['Uber', 'AG', 'Arena Trap', 'Moody', 'Shadow Tag'],
 	},
 	{
 		name: "[Gen 9] Random Battle",
