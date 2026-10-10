@@ -10,10 +10,9 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		heightm: 1.7,
 		weightkg: 795.0,
 		color: "Brown",
-		evoLevel: 36,
 		eggGroups: ["Undiscovered"],
 		otherFormes: ["Dart Monkey-Middle", "Dart Monkey-Bottom"],
-		formeOrder: ["Dart Monkey-Top", "Dart Monkey-Middle"],
+		formeOrder: ["Dart Monkey-Top", "Dart Monkey-Middle", "Dart Monkey-Bottom"],
 	},
 	dartmonkeymiddle: {
 		gen: 9,
