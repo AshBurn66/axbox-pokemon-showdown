@@ -1,5 +1,6 @@
 export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable = {
 	dartmonkeytop: {
+		gen: 9,
 		num: -1000,
 		name: "Dart Monkey-Top",
 		types: ["Normal", "Steel"],
@@ -15,6 +16,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		formeOrder: ["Dart Monkey-Top", "Dart Monkey-Middle"],
 	},
 	dartmonkeymiddle: {
+		gen: 9,
 		num: -1000,
 		name: "Dart Monkey-Middle",
 		baseSpecies: "Dart Monkey-Top",
@@ -28,6 +30,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		eggGroups: ["Undiscovered"],
 	},
 	dartmonkeybottom: {
+		gen: 9,
 		num: -1000,
 		name: "Dart Monkey-Bottom",
 		baseSpecies: "Dart Monkey-Top",
