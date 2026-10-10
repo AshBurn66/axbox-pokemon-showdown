@@ -152,6 +152,14 @@ export const Tags: { [id: IDEntry]: TagData } = {
 
 	// Tiers
 	// -----
+	axmons: {
+		name: "AxMons",
+		speciesFilter: species => species.tier === 'AxMons',
+	},
+	bloons: {
+		name: "Bloons",
+		speciesFilter: species => species.tier === 'Bloons',
+	},
 	uber: {
 		name: "Uber",
 		speciesFilter: species => species.tier === 'Uber' || species.tier === 'AG' || species.tier === '(AG)',
