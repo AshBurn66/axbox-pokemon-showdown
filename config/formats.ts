@@ -35,7 +35,8 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		name: "[Gen 9] BloonsMon",
 		mod: '_bloonsmon',
 		ruleset: ['HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Illusion Level Mod', 'Evasion Abilities Clause', 'Species Clause'],
-		banlist: ['Uber', 'AG', 'Arena Trap', 'Moody', 'Shadow Tag', 'AxMons'],
+		banlist: ['All Pokemon', 'Arena Trap', 'Moody', 'Shadow Tag'],
+		unbanlist: ['Bloons']
 	},
 	{
 		name: "[Gen 9] Random Battle",
