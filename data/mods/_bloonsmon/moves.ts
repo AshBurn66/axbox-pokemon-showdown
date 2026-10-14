@@ -1,0 +1,30 @@
+export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
+
+	handgrenade: {
+		num: -1000,
+		accuracy: 100,
+		basePower: 80,
+		category: "Physical",
+		name: "Hand Grenade",
+		pp: 30,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, metronome: 1 },
+		target: "normal",
+		type: "Blast",
+		contestType: "Tough",
+	},
+	cannonblast: {
+		num: -1001,
+		accuracy: 100,
+		basePower: 90,
+		category: "Physical",
+		name: "Cannon Blast",
+		pp: 15,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, metronome: 1 },
+		target: "normal",
+		type: "Blast",
+		contestType: "Tough",
+	},
+
+}

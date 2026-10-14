@@ -120,5 +120,20 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			shockwave: ["9L1"],
 			electroweb: ["9L1"],
 		}
-	}
+	},
+	bombshootertop: {
+		learnset: {
+			cannonblast: ["9L1"],
+		}
+	},
+	bombshootermiddle: {
+		learnset: {
+			cannonblast: ["9L1"],
+		}
+	},
+	bombshooterbottom: {
+		learnset: {
+			cannonblast: ["9L1"],
+		}
+	},
 };
