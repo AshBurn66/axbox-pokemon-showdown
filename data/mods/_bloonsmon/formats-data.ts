@@ -11,4 +11,16 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	dartmonkeybottom: {
 		tier: "Bloons",
 	},
+	bombshooter: {
+		tier: "Illegal",
+	},
+	bombshootertop: {
+		tier: "Bloons",
+	},
+	bombshootermiddle: {
+		tier: "Bloons",
+	},
+	bombshooterbottom: {
+		tier: "Bloons",
+	},
 };
