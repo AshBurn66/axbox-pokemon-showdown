@@ -28,5 +28,22 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 		type: "Blast",
 		contestType: "Tough",
 	},
+	shellshock: {
+		num: -1002,
+		accuracy: 100,
+		basePower: 50,
+		category: "Physical",
+		name: "Shell Shock",
+		pp: 15,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, metronome: 1 },
+		secondary: {
+			chance: 50,
+			status: 'par',
+		},
+		target: "normal",
+		type: "Blast",
+		contestType: "Tough",
+	},
 
 }

@@ -106,7 +106,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		types: ["Blast", "Dark"],
 		genderRatio: { M: 0.5, F: 0.5 },
 		baseStats: { hp: 70, atk: 120, def: 80, spa: 75, spd: 75, spe: 100 },
-		abilities: { 0: "Indimidate" },
+		abilities: { 0: "Intimidate" },
 		heightm: 1.7,
 		weightkg: 79.5,
 		eggGroups: ["Undiscovered"],
