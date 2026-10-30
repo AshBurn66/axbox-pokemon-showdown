@@ -1,7 +1,4 @@
 export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormatsDataTable = {
-	dartmonkey: {
-		tier: "Illegal",
-	},
 	dartmonkeytop: {
 		tier: "Bloons",
 	},
@@ -10,9 +7,6 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	},
 	dartmonkeybottom: {
 		tier: "Bloons",
-	},
-	bombshooter: {
-		tier: "Illegal",
 	},
 	bombshootertop: {
 		tier: "Bloons",

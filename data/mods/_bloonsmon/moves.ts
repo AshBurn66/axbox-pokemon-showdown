@@ -10,8 +10,7 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 		priority: 0,
 		flags: { protect: 1, mirror: 1, metronome: 1 },
 		target: "normal",
-		//type: "Fire",
-		type: "Blast",
+		type: "Fire",
 		contestType: "Tough",
 	},
 	cannonblast: {
@@ -24,8 +23,7 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 		priority: 0,
 		flags: { protect: 1, mirror: 1, metronome: 1 },
 		target: "normal",
-		//type: "Fire",
-		type: "Blast",
+		type: "Steel",
 		contestType: "Tough",
 	},
 	shellshock: {
@@ -42,7 +40,7 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 			status: 'par',
 		},
 		target: "normal",
-		type: "Blast",
+		type: "Electric",
 		contestType: "Tough",
 	},
 
