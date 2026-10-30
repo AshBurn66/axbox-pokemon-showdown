@@ -30,7 +30,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	// 	},
 
 
-	dartmonkeytop: {
+	ultrajuggernaut: {
 		gen: 9,
 		num: -1000,
 		name: "Ultra Juggernaut",
@@ -47,10 +47,10 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		//otherFormes: ["Dart Monkey-Middle", "Dart Monkey-Bottom"],
 		//formeOrder: ["Dart Monkey-Top", "Dart Monkey-Middle", "Dart Monkey-Bottom"],
 	},
-	dartmonkeymiddle: {
+	plasmamonkeyfc: {
 		gen: 9,
 		num: -1001,
-		name: "Plasma Monkey Fan Club",
+		name: "Plasma Monkey FC",
 		//baseSpecies: "Dart Monkey",
 		//forme: "Middle",
 		types: ["Normal"],
@@ -61,7 +61,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		weightkg: 79.5,
 		eggGroups: ["Undiscovered"],
 	},
-	dartmonkeybottom: {
+	crossbowmaster: {
 		gen: 9,
 		num: -1002,
 		name: "Crossbow Master",
