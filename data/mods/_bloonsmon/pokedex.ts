@@ -94,7 +94,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	// 	otherFormes: ["Bomb Shooter-Top", "Bomb Shooter-Middle", "Bomb Shooter-Bottom"],
 	// 	formeOrder: ["Bomb Shooter", "Bomb Shooter-Top", "Bomb Shooter-Middle", "Bomb Shooter-Bottom"],
 	// },
-	bombshootertop: {
+	blooncrush: {
 		gen: 9,
 		num: -1003,
 		name: "Bloon Crush",
@@ -112,7 +112,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		//otherFormes: ["Dart Monkey-Middle", "Dart Monkey-Bottom"],
 		//formeOrder: ["Dart Monkey-Top", "Dart Monkey-Middle", "Dart Monkey-Bottom"],
 	},
-	bombshootermiddle: {
+	moabeliminator: {
 		gen: 9,
 		num: -1004,
 		name: "MOAB Eliminator",
@@ -126,7 +126,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		weightkg: 79.5,
 		eggGroups: ["Undiscovered"],
 	},
-	bombshooterbottom: {
+	bombblitz: {
 		gen: 9,
 		num: -1005,
 		name: "Bomb Blitz",

@@ -1,20 +1,20 @@
 export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormatsDataTable = {
-	dartmonkeytop: {
+	ultrajuggernaut: {
 		tier: "Bloons",
 	},
-	dartmonkeymiddle: {
+	plasmamonkeyfc: {
 		tier: "Bloons",
 	},
-	dartmonkeybottom: {
+	crossbowmaster: {
 		tier: "Bloons",
 	},
-	bombshootertop: {
+	blooncrush: {
 		tier: "Bloons",
 	},
-	bombshootermiddle: {
+	moabeliminator: {
 		tier: "Bloons",
 	},
-	bombshooterbottom: {
+	bombblitz: {
 		tier: "Bloons",
 	},
 };
