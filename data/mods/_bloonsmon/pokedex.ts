@@ -50,7 +50,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	dartmonkeymiddle: {
 		gen: 9,
 		num: -1001,
-		name: "Plasma Monkey",
+		name: "Plasma Monkey Fan Club",
 		//baseSpecies: "Dart Monkey",
 		//forme: "Middle",
 		types: ["Normal"],
