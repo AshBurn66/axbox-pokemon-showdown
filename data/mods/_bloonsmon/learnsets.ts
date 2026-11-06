@@ -131,6 +131,14 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			psychup: ["9M"],
 			disable: ["9M"],
 			tidyup: ["9M"], // CUT??
+
+			rockblast: ["9M"],
+			bulletseed: ["9M"],
+			scaleshot: ["9M"],
+			dragondarts: ["9M"],
+			iciclespear: ["9M"],
+			tripleaxel: ["9M"],
+			pinmissile: ["9M"],
 		}
 	},
 	crossbowmaster: {
@@ -186,7 +194,6 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			switcheroo: ["9M"],
 			taunt: ["9M"],
 			torment: ["9M"],
-
 
 			dragondance: ["9M"],
 			agility: ["9M"],
@@ -404,7 +411,6 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			doubleedge: ["9M"],
 			helpinghand: ["9M"],
 			swift: ["9M"],
-
 			
 			assurance: ["9M"],
 			beatup: ["9M"],
@@ -1459,9 +1465,405 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			//impalingicicle: ["9M"], // <-- ADD
 		}
 	},
-	// superglue:{
-	// 	learnset: {
+	cripplemoab:{
+		learnset: {
 
-	// 	}
-	// },
+		}
+	},
+	elitesniper:{
+		learnset: {
+
+		}
+	},
+	elitedefender:{
+		learnset: {
+
+		}
+	},
+	flagshipcarrier:{
+		learnset: {
+
+		}
+	},
+	piratelord:{
+		learnset: {
+
+		}
+	},
+	tradeempire:{
+		learnset: {
+
+		}
+	},
+	energizer:{
+		learnset: {
+
+		}
+	},
+	preemptivestrike:{
+		learnset: {
+
+		}
+	},
+	subcommander:{
+		learnset: {
+
+		}
+	},
+	skyshredder:{
+		learnset: {
+
+		}
+	},
+	tsarbomba:{
+		learnset: {
+
+		}
+	},
+	flyingfortress:{
+		learnset: {
+
+		}
+	},
+	apacheprime:{
+		learnset: {
+
+		}
+	},
+	specialpoperations:{
+		learnset: {
+
+		}
+	},
+	comanchecommander:{
+		learnset: {
+
+		}
+	},
+	thebiggestone:{
+		learnset: {
+
+		}
+	},
+	popandawe:{
+		learnset: {
+
+		}
+	},
+	blooncineration:{
+		learnset: {
+
+		}
+	},
+	rayofdoom:{
+		learnset: {
+
+		}
+	},
+	mad:{
+		learnset: {
+
+		}
+	},
+	bloonexclusionzone:{
+		learnset: {
+
+		}
+	},
+	archmage:{
+		learnset: {
+
+		}
+	},
+	wizardlordphoenix:{
+		learnset: {
+
+		}
+	},
+	princeofdarkness:{
+		learnset: {
+
+		}
+	},
+	truesungod:{
+		learnset: {
+
+		}
+	},
+	theantibloon:{
+		learnset: {
+
+		}
+	},
+	legendofthenight:{
+		learnset: {
+
+		}
+	},
+	grandmasterninja:{
+		learnset: {
+
+		}
+	},
+	grandsaboteur:{
+		learnset: {
+
+		}
+	},
+	masterbomber:{
+		learnset: {
+
+		}
+	},
+	permanentbrew:{
+		learnset: {
+
+		}
+	},
+	totaltransformation:{
+		learnset: {
+
+		}
+	},
+	bloonmasteralchemist:{
+		learnset: {
+
+		}
+	},
+	monarchofstorms:{
+		learnset: {
+
+		}
+	},
+	spiritoftheforest:{
+		learnset: {
+
+		}
+	},
+	avatarofwrath:{
+		learnset: {
+
+		}
+	},
+	lordoftheabyss:{
+		learnset: {
+
+		}
+	},
+	popseidon:{
+		learnset: {
+
+		}
+	},
+	thefinalharmonic:{
+		learnset: {
+
+		}
+	},
+	farwindseer:{
+		learnset: {
+
+		}
+	},
+	stormwratharchon:{
+		learnset: {
+
+		}
+	},
+	wintersmercy:{
+		learnset: {
+
+		}
+	},
+	sentrychampion:{
+		learnset: {
+
+		}
+	},
+	ultraboost:{
+		learnset: {
+
+		}
+	},
+	xxxltrap:{
+		learnset: {
+
+		}
+	},
+	supermines:{
+		learnset: {
+
+		}
+	},
+	carpetofspikes:{
+		learnset: {
+
+		}
+	},
+	permaspike:{
+		learnset: {
+
+		}
+	},
+	megalodon:{
+		learnset: {
+
+		}
+	},
+	giganotosaurus:{
+		learnset: {
+
+		}
+	},
+	pouakai:{
+		learnset: {
+
+		}
+	},
+	bloonchipper:{
+		learnset: {
+
+		}
+	},
+	quincy:{
+		learnset: {
+
+		}
+	},
+	gwendolin:{
+		learnset: {
+
+		}
+	},
+	strikerjones:{
+		learnset: {
+
+		}
+	},
+	obyngreenfoot:{
+		learnset: {
+
+		}
+	},
+	captainchurchill:{
+		learnset: {
+
+		}
+	},
+	ben:{
+		learnset: {
+
+		}
+	},
+	ezili:{
+		learnset: {
+
+		}
+	},
+	patfusty:{
+		learnset: {
+
+		}
+	},
+	adora:{
+		learnset: {
+
+		}
+	},
+	admiralbrickell:{
+		learnset: {
+
+		}
+	},
+	etienne:{
+		learnset: {
+
+		}
+	},
+	sauda:{
+		learnset: {
+
+		}
+	},
+	psi:{
+		learnset: {
+
+		}
+	},
+	geraldo:{
+		learnset: {
+
+		}
+	},
+	corvus:{
+		learnset: {
+
+		}
+	},
+	rosalia:{
+		learnset: {
+
+		}
+	},
+	silas:{
+		learnset: {
+
+		}
+	},
+	dandmonke:{
+		learnset: {
+
+		}
+	},
+	agentjericho:{
+		learnset: {
+
+		}
+	},
+	bonnie:{
+		learnset: {
+
+		}
+	},
+	pinkbloon:{
+		learnset: {
+
+		}
+	},
+	whitebloon:{
+		learnset: {
+
+		}
+	},
+	blackbloon:{
+		learnset: {
+
+		}
+	},
+	leadbloon:{
+		learnset: {
+
+		}
+	},
+	purplebloon:{
+		learnset: {
+
+		}
+	},
+	ceramicbloon:{
+		learnset: {
+
+		}
+	},
+	redcamobloon:{
+		learnset: {
+
+		}
+	},
+	regrowrainbowbloon:{
+		learnset: {
+
+		}
+	},
+	
 };
