@@ -1012,7 +1012,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		otherFormes: ["The Masqued Macaque"],
 		formeOrder: ["Dan D'Monke", "The Masqued Macaque"],
 	},
-	dandmonkemacaque: {
+	themasquedmacaque: {
 		gen: 9,
 		num: -1090,
 		name: "The Masqued Macaque",

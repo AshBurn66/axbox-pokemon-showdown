@@ -272,7 +272,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	dandmonke: {
 		tier: "Bloons",
 	},
-	dandmonkemacaque: {
+	themasquedmacaque: {
 		tier: "Illegal",
 	},
 	agentjericho: {

@@ -582,13 +582,13 @@ export class TeamValidator {
 			if (set.name?.endsWith('-Gmax')) set.name = species.baseSpecies;
 			set.gigantamax = true;
 		}
-		if (set.name && set.name.length > 18) {
+		if (set.name && set.name.length > 30) {
 			if (set.name === set.species) {
 				set.name = species.baseSpecies;
 			} else {
 				problems.push(`${set.species}'s nickname "${set.name}" is too long.`);
 				problems.push(
-					`(It's ${set.name.length} characters long, but should be 18 or less. ` +
+					`(It's ${set.name.length} characters long, but should be 30 or less. ` +
 					`Some characters, like emojis, may count as more than one.)`
 				);
 			}
