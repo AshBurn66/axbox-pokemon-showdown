@@ -25,16 +25,17 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	{
 		section: "S/V Singles",
 	},
-	{
-		name: "[Gen 9] AxBox Format",
-		mod: '_myfakemons',
-		ruleset: ['HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Illusion Level Mod', 'Evasion Abilities Clause', 'Species Clause'],
-		banlist: ['Uber', 'AG', 'Arena Trap', 'Moody', 'Shadow Tag', 'Bloons'],
-	},
+	// {
+	// 	name: "[Gen 9] AxBox Format",
+	// 	mod: '_myfakemons',
+	// 	ruleset: ['HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Illusion Level Mod', 'Evasion Abilities Clause', 'Species Clause'],
+	// 	banlist: ['Uber', 'AG', 'Arena Trap', 'Moody', 'Shadow Tag', 'Bloons'],
+	// },
 	{
 		name: "[Gen 9] BloonsMon",
 		mod: '_bloonsmon',
-		ruleset: ['HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Illusion Level Mod', 'Evasion Abilities Clause', 'Species Clause'],
+		//ruleset: ['HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Illusion Level Mod', 'Evasion Abilities Clause', 'Species Clause'],
+		ruleset: ['Standard', 'Evasion Abilities Clause'],
 		banlist: ['All Pokemon', 'Arena Trap', 'Moody', 'Shadow Tag'],
 		unbanlist: ['Bloons']
 	},
