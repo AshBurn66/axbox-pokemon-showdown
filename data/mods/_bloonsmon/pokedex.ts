@@ -646,7 +646,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		num: -1057,
 		name: "Lord of the Abyss",
 		types: ["Water", "Poison"],
-		baseStats: { hp: 50, atk: 75, def: 130, spa: 65, spd: 130, spe: 50 },
+		baseStats: { hp: 50, atk: 70, def: 130, spa: 70, spd: 130, spe: 50 },
 		abilities: { 0: "Limber", H: "Frisk" },
 		weightkg: 100.0,
 		eggGroups: ["Undiscovered"],
