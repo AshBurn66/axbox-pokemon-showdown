@@ -73,7 +73,7 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 			}
 
 			move.onEffectiveness = (typeMod, target, type) => {
-				if (type === 'Steel') return 1;
+				if (move.type === 'Poison' && type === 'Steel') return 1;
 			}
 		},
 		//    \/ Freeze-Dry Code DO NOT USE \/
