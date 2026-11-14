@@ -2443,6 +2443,20 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		start: "  {POKEMON} foresaw an attack!",
 		activate: "  {TARGET} took the Future Sight attack!",
 	},
+	stickybomb: {
+		name: "Sticky Bomb",
+		desc: "Deals damage two turns after this move is used. At the end of that turn, the damage is calculated at that time and dealt to the Pokemon at the position the target had when the move was used. If the user is no longer active at the time, damage is calculated based on the user's natural Special Attack stat, types, and level, with no boosts from its held item or Ability. Fails if this move, Future Sight, or Doom Desire is already in effect for the target's position.",
+		shortDesc: "Hits two turns after being used.",
+		gen4: {
+			desc: "Deals typeless damage that cannot be a critical hit two turns after this move is used. Damage is calculated against the target on use, and at the end of the final turn that damage is dealt to the Pokemon at the position the original target had at the time. Fails if this move, Future Sight, or Doom Desire is already in effect for the target's position.",
+		},
+		gen2: {
+			desc: "Deals typeless damage that cannot be a critical hit two turns after this move is used. Damage is calculated against the target on use, and at the end of the final turn that damage is dealt to the Pokemon at the position the original target had at the time. Fails if this move is already in effect for the target's position.",
+		},
+
+		start: "  {POKEMON} planted a bomb!",
+		activate: "  {TARGET} was blown up by the Sticky Bomb!",
+	},
 	gastroacid: {
 		name: "Gastro Acid",
 		desc: "Causes the target's Ability to be rendered ineffective as long as it remains active. If the target uses Baton Pass, the replacement will remain under this effect. If the target's Ability is As One, Battle Bond, Comatose, Disguise, Gulp Missile, Ice Face, Multitype, Power Construct, RKS System, Schooling, Shields Down, Stance Change, Tera Shift, Zen Mode, or Zero to Hero, this move fails, and receiving the effect through Baton Pass ends the effect immediately.",
