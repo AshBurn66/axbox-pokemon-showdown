@@ -145,4 +145,23 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		rating: 2.5,
 		num: -1009,
 	},
+
+	spikesetter: {
+		onResidualOrder: 28,
+		onResidualSubOrder: 2,
+		onResidual(pokemon) {
+			if (pokemon.activeTurns) {
+				for (const side of pokemon.side.foeSidesWithConditions()) {
+					side.addSideCondition('spikes');
+				}
+			}
+			// if (pokemon.activeTurns) {
+			// 	this.boost({ spe: 1 });
+			// }
+		},
+		flags: {},
+		name: "Spike Setter",
+		rating: 4.5,
+		num: -1010,
+	},
 }

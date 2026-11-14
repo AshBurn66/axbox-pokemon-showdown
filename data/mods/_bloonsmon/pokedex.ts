@@ -731,7 +731,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		name: "XXXL Trap",
 		types: ["Electric", "Steel"],
 		baseStats: { hp: 60, atk: 135, def: 95, spa: 65, spd: 80, spe: 85 },
-		abilities: { 0: "Static", H: "Bloon Trap" }, // <-- CHANGE TO BLOON TRAP
+		abilities: { 0: "Static", H: "Bloon Trap" },
 		weightkg: 100.0,
 		eggGroups: ["Undiscovered"],
 	},
@@ -743,7 +743,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		name: "Super Mines",
 		types: ["Ground", "Fire"],
 		baseStats: { hp: 110, atk: 100, def: 100, spa: 120, spd: 100, spe: 10 },
-		abilities: { 0: "Sheer Force", H: "Wimp Out" },
+		abilities: { 0: "Sheer Force", H: "Explosive" },
 		weightkg: 300.0,
 		eggGroups: ["Undiscovered"],
 	},
