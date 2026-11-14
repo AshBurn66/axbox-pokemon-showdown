@@ -102,7 +102,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		name: "Glaive Lord",
 		types: ["Dark"],
 		baseStats: { hp: 95, atk: 120, def: 90, spa: 70, spd: 80, spe: 80 },
-		abilities: { 0: "Wimp Out" }, // <-- CHANGE TO ORBITING GLAIVES
+		abilities: { 0: "Orbiting Glaives" }, // <-- CHANGE TO ORBITING GLAIVES
 		weightkg: 100.0,
 		eggGroups: ["Undiscovered"],
 	},
@@ -135,7 +135,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		name: "Bloon Crush",
 		types: ["Fire"],
 		baseStats: { hp: 95, atk: 50, def: 105, spa: 110, spd: 105, spe: 50 },
-		abilities: { 0: "Serene Grace", H: "Wimp Out" }, // <-- CHANGE TO EXPLOSIVE
+		abilities: { 0: "Serene Grace", H: "Explosive" },
 		weightkg: 800.0,
 		eggGroups: ["Undiscovered"],
 	},
@@ -145,7 +145,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		name: "MOAB Eliminator",
 		types: ["Fire", "Dark"],
 		baseStats: { hp: 55, atk: 55, def: 55, spa: 140, spd: 75, spe: 101 },
-		abilities: { 0: "Intimidate", H: "Wimp Out" }, // <-- CHANGE TO EXPLOSIVE
+		abilities: { 0: "Intimidate", H: "Explosive" },
 		weightkg: 600.0,
 		eggGroups: ["Undiscovered"],
 	},
@@ -167,7 +167,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		name: "The Bloon Solver",
 		types: ["Normal", "Poison"],
 		baseStats: { hp: 85, atk: 55, def: 80, spa: 130, spd: 70, spe: 85 },
-		abilities: { 0: "Gooey", H: "Wimp Out" }, // <-- CHANGE TO NEGATIVE PH
+		abilities: { 0: "Gooey", H: "High Acidity" },
 		weightkg: 150.0,
 		eggGroups: ["Undiscovered"],
 	},
@@ -263,7 +263,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		name: "Cripple MOAB",
 		types: ["Dark", "Grass"],
 		baseStats: { hp: 90, atk: 135, def: 70, spa: 100, spd: 90, spe: 15 },
-		abilities: { 0: "Sniper", 1: "Wimp Out", H: "Stakeout" }, // <-- CHANGE TO FIREARMS EXPERT
+		abilities: { 0: "Sniper", 1: "Firearms Expert", H: "Stakeout" },
 		weightkg: 100.0,
 		eggGroups: ["Undiscovered"],
 	},
@@ -273,7 +273,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		name: "Elite Sniper",
 		types: ["Dark"],
 		baseStats: { hp: 90, atk: 100, def: 80, spa: 90, spd: 90, spe: 35 },
-		abilities: { 0: "Sniper", 1: "Wimp Out", H: "Adaptability" }, // <-- CHANGE TO FIREARMS EXPERT
+		abilities: { 0: "Sniper", 1: "Firearms Expert", H: "Adaptability" },
 		weightkg: 100.0,
 		eggGroups: ["Undiscovered"],
 	},
@@ -283,7 +283,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		name: "Elite Defender",
 		types: ["Dark", "Fighting"],
 		baseStats: { hp: 90, atk: 110, def: 90, spa: 100, spd: 80, spe: 85 },
-		abilities: { 0: "Sniper", 1: "Wimp Out", H: "Battle Armor" }, // <-- CHANGE TO FIREARMS EXPERT
+		abilities: { 0: "Sniper", 1: "Firearms Expert", H: "Battle Armor" },
 		weightkg: 120.0,
 		eggGroups: ["Undiscovered"],
 	},
@@ -337,7 +337,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		name: "Pre-Emptive Strike",
 		types: ["Water", "Steel"],
 		baseStats: { hp: 100, atk: 105, def: 95, spa: 120, spd: 75, spe: 60 },
-		abilities: { 0: "Wimp Out" }, // <-- CHANGE TO EXPLOSIVE
+		abilities: { 0: "Explosive" },
 		weightkg: 1000.0,
 		eggGroups: ["Undiscovered"],
 	},
@@ -369,7 +369,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		name: "Tsar Bomba",
 		types: ["Poison", "Flying"],
 		baseStats: { hp: 85, atk: 85, def: 89, spa: 136, spd: 89, spe: 86 },
-		abilities: { 0: "Wimp Out" }, // <-- CHANGE TO NUCLEAR
+		abilities: { 0: "Nuclear" },
 		weightkg: 1200.0,
 		eggGroups: ["Undiscovered"],
 	},
@@ -423,7 +423,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		name: "The Biggest One",
 		types: ["Fire", "Poison"],
 		baseStats: { hp: 110, atk: 85, def: 60, spa: 145, spd: 65, spe: 55 },
-		abilities: { 0: "Wimp Out" }, // <-- CHANGE TO NUCLEAR
+		abilities: { 0: "Nuclear" },
 		weightkg: 250.0,
 		eggGroups: ["Undiscovered"],
 	},
@@ -465,7 +465,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		name: "M.A.D.",
 		types: ["Dark"],
 		baseStats: { hp: 90, atk: 101, def: 100, spa: 125, spd: 100, spe: 64 },
-		abilities: { 0: "Wimp Out", H: "Berserk" }, // <-- CHANGE TO EXPLOSIVE
+		abilities: { 0: "Explosive", H: "Berserk" },
 		weightkg: 250.0,
 		eggGroups: ["Undiscovered"],
 	},
@@ -840,7 +840,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		name: "Striker Jones",
 		types: ["Fire"],
 		baseStats: { hp: 80, atk: 110, def: 85, spa: 120, spd: 70, spe: 69 },
-		abilities: { 0: "Mega Launcher", H: "Wimp Out" }, // <-- CHANGE TO EXPLOSIVE
+		abilities: { 0: "Mega Launcher", H: "Explosive" },
 		weightkg: 100.0,
 		eggGroups: ["Undiscovered"],
 	},
@@ -983,7 +983,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		name: "Rosalia",
 		types: ["Steel", "Electric"],
 		baseStats: { hp: 80, atk: 120, def: 80, spa: 100, spd: 80, spe: 125 },
-		abilities: { 0: "Levitate", H: "Wimp Out" }, // <-- CHANGE TO EXPLOSIVE
+		abilities: { 0: "Levitate", H: "Explosive" },
 		weightkg: 100.0,
 		eggGroups: ["Undiscovered"],
 	},
@@ -1033,7 +1033,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		name: "Agent Jericho",
 		types: ["Dark"],
 		baseStats: { hp: 70, atk: 129, def: 80, spa: 100, spd: 85, spe: 102 },
-		abilities: { 0: "Moxie", H: "Wimp Out" }, // <-- CHANGE TO FIREARMS EXPERT
+		abilities: { 0: "Moxie", H: "Firearms Expert" },
 		weightkg: 100.0,
 		eggGroups: ["Undiscovered"],
 	},

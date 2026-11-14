@@ -832,6 +832,20 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 
 		damage: "#roughskin",
 	},
+	orbitingglaives: { 
+		name: "Orbiting Glaives",
+		desc: "Pokemon making contact with this Pokemon lose 1/8 of their maximum HP, rounded down.",
+		shortDesc: "Pokemon making contact with this Pokemon lose 1/8 of their max HP.",
+
+		damage: "#roughskin",
+	},
+	razorrotors: {
+		name: "Razor Rotors",
+		desc: "Pokemon making contact with this Pokemon lose 1/8 of their maximum HP, rounded down.",
+		shortDesc: "Pokemon making contact with this Pokemon lose 1/8 of their max HP.",
+
+		damage: "#roughskin",
+	},
 	ironfist: {
 		name: "Iron Fist",
 		desc: "This Pokemon's punch-based attacks have their power multiplied by 1.2.",

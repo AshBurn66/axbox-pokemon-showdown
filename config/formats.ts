@@ -2114,6 +2114,8 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 					gooey: 'tanglinghair',
 					insomnia: 'vitalspirit',
 					ironbarbs: 'roughskin',
+					orbitingglaives: 'roughskin',
+					razorrotors: 'roughskin',
 					keeneye: 'illuminate',
 					libero: 'protean',
 					minus: 'plus',
