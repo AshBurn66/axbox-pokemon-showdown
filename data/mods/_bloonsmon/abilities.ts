@@ -17,7 +17,7 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		onBasePower(basePower, attacker, defender, move) {
 			if (move.flags['bullet']) {
 				this.debug('Explosive boost');
-				return this.chainModify([4915, 4096]);
+				return this.chainModify([5325, 4096]);
 			}
 		},
 		flags: {},
@@ -30,7 +30,7 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		onBasePower(basePower, attacker, defender, move) {
 			if (move.flags['bullet']) {
 				this.debug('Nuclear boost');
-				return this.chainModify([4915, 4096]);
+				return this.chainModify([6144, 4096]);
 			}
 		},
 		flags: {},
@@ -99,6 +99,50 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		flags: {},
 		name: "Signal Flare",
 		rating: 2,
-		num: 143,
+		num: -1006,
+	},
+
+	berserkerbrew: {
+		onAllyBasePowerPriority: 22,
+		onAllyBasePower(basePower, attacker, defender, move) {
+			if (attacker !== this.effectState.target) {
+				this.debug('Power Spot boost');
+				return this.chainModify([5325, 4096]);
+			}
+		},
+		flags: {},
+		name: "Berserker Brew",
+		rating: 0,
+		num: -1007,
+	},
+
+	freezeforce: {
+		onBasePowerPriority: 21,
+		onBasePower(basePower, attacker, defender, move) {
+			if (this.field.isWeather(['hail', 'snowscape'])) {
+				if (move.type === 'Ice' || move.type === 'Water') {
+					this.debug('Freeze Force boost');
+					return this.chainModify([6144, 4096]);
+				}
+			}
+		},
+		flags: {},
+		name: "Freeze Force",
+		rating: 2,
+		num: -1008,
+	},
+
+	bloontrap: {
+		onDamagingHitOrder: 1,
+		onDamagingHit(damage, target, source, move) {
+			if (this.checkMoveMakesContact(move, source, target, true)) {
+				//this.damage(source.baseMaxhp / 8, source, target);
+				if (target.isActive) source.addVolatile('trapped', target, move, 'trapper');
+			}
+		},
+		flags: {},
+		name: "Bloon Trap",
+		rating: 2.5,
+		num: -1009,
 	},
 }

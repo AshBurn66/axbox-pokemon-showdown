@@ -731,7 +731,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		name: "XXXL Trap",
 		types: ["Electric", "Steel"],
 		baseStats: { hp: 60, atk: 135, def: 95, spa: 65, spd: 80, spe: 85 },
-		abilities: { 0: "Static", H: "Wimp Out" }, // <-- CHANGE TO BLOON TRAP
+		abilities: { 0: "Static", H: "Bloon Trap" }, // <-- CHANGE TO BLOON TRAP
 		weightkg: 100.0,
 		eggGroups: ["Undiscovered"],
 	},
