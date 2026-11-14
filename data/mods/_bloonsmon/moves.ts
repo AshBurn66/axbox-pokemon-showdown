@@ -357,7 +357,7 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 		name: "Pre-Emptive Strike",
 		pp: 10,
 		priority: 2,
-		flags: { protect: 1, mirror: 1, metronome: 1 },
+		flags: { protect: 1, mirror: 1, metronome: 1, bullet: 1 },
 		onTry(source) {
 			if (source.activeMoveActions > 1) {
 				this.hint("Pre-Emptive Strike only works on your first turn out.");
