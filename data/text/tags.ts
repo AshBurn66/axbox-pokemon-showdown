@@ -76,8 +76,8 @@ export const TagsText: { [id: string]: TagText } = {
 	},
 	bullet: {
 		name: "Bullet",
-		hint: "doesn't affect Bulletproof pokemon",
-		desc: "Doesn't affect Bulletproof Pokémon.",
+		hint: "Bulletproof pokemon immune, boosted by some abilities",
+		desc: "Doesn't affect Bulletproof Pokémon. Boosted 1.2× by Firearms Expert, 1.3× by Explosive, and 1.5× by Nuclear.",
 	},
 	dance: {
 		name: "Dance",
