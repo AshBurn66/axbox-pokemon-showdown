@@ -443,7 +443,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		name: "Blooncineration",
 		types: ["Fire"],
 		baseStats: { hp: 105, atk: 65, def: 75, spa: 110, spd: 100, spe: 65 },
-		abilities: { 0: "Wimp Out" }, // <-- CHANGE TO SIGNAL FLARE
+		abilities: { 0: "Signal Flare" },
 		weightkg: 250.0,
 		eggGroups: ["Undiscovered"],
 	},

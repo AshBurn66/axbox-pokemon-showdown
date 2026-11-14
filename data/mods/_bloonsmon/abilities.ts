@@ -85,4 +85,20 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		rating: 3,
 		num: -1005,
 	},
+
+	signalflare: {
+		onSourceDamagingHit(damage, target, source, move) {
+			// Despite not being a secondary, Shield Dust / Covert Cloak block Poison Touch's effect
+			if (target.hasAbility('shielddust') || target.hasItem('covertcloak')) return;
+			if (move.category === "Special") {
+				if (this.randomChance(3, 10)) {
+					target.trySetStatus('brn', source);
+				}
+			}
+		},
+		flags: {},
+		name: "Signal Flare",
+		rating: 2,
+		num: 143,
+	},
 }
