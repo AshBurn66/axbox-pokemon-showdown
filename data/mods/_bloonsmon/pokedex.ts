@@ -423,7 +423,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		name: "The Biggest One",
 		types: ["Fire", "Poison"],
 		baseStats: { hp: 110, atk: 85, def: 60, spa: 145, spd: 65, spe: 55 },
-		abilities: { 0: "Refrigerate", H: "Mega Launcher" },
+		abilities: { 0: "Wimp Out" }, // <-- CHANGE TO NUCLEAR
 		weightkg: 250.0,
 		eggGroups: ["Undiscovered"],
 	},

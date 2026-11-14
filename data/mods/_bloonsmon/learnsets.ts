@@ -5017,6 +5017,8 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 
 			wideguard: ["9M"],
 			stealthrock: ["9M"],
+
+			spikestorm: ["9M"],
 		}
 	},
 	permaspike:{
