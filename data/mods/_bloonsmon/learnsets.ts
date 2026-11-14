@@ -219,7 +219,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			disable: ["9M"],
 			psychup: ["9M"],
 
-			//superbolt: ["9M"],  // <-- ADD
+			superbolt: ["9M"],  // <-- ADD
 		}
 	},
 	infernoring: {
@@ -320,7 +320,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			earthquake: ["9M"],
 			suckerpunch: ["9M"],
 
-			//blademaelstrom: ["9M"],  // <-- ADD
+			blademaelstrom: ["9M"],  // <-- ADD
 		}
 	},
 	thetackzone: {
@@ -806,7 +806,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 
 			cannonblast: ["9M"],
 			shellshock: ["9M"],
-			// clusterbombs: ["9M"], // <-- ADD
+			clusterbombs: ["9M"], // <-- ADD
 		}
 	},
 	thebloonsolver:{
@@ -947,7 +947,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			ragepowder: ["9M"],
 			thunderwave: ["9M"],
 
-			// gluestrike: ["9M"], // <-- ADD
+			gluestrike: ["9M"], // <-- ADD
 		}
 	},
 	superglue:{
@@ -1006,7 +1006,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			psychup: ["9M"],
 			haze: ["9M"],
 
-			// relentlessglue: ["9M"], // <-- ADD
+			relentlessglue: ["9M"], // <-- ADD
 		}
 	},
 	theblazingsun:{
@@ -1464,7 +1464,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 
 			cannonblast: ["9M"],
 			shellshock: ["9M"],
-			//impalingicicle: ["9M"], // <-- ADD
+			impalingicicle: ["9M"], // <-- ADD
 		}
 	},
 	cripplemoab:{
@@ -2009,8 +2009,8 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 
 			cannonblast: ["9M"],
 			shellshock: ["9M"],
-			//homingmissile: ["9M"], // <-- ADD
-			//preemptivestrike: ["9M"], // <-- ADD
+			homingmissile: ["9M"], // <-- ADD
+			preemptivestrike: ["9M"], // <-- ADD
 		}
 	},
 	subcommander:{
@@ -2185,8 +2185,8 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			taunt: ["9M"],
 			
 			shellshock: ["9M"],
-			//bombdrop: ["9M"], // <-- ADD
-			//armageddon: ["9M"], // <-- ADD
+			bombdrop: ["9M"], // <-- ADD
+			armageddon: ["9M"], // <-- ADD
 		}
 	},
 	flyingfortress:{
@@ -2297,7 +2297,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			sludgebomb: ["9M"],
 			shadowball: ["9M"],
 
-			//homingmissile: ["9M"], // <-- ADD
+			homingmissile: ["9M"], // <-- ADD
 		}
 	},
 	specialpoperations:{
@@ -2458,8 +2458,8 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 
 			cannonblast: ["9M"],
 			shellshock: ["9M"],
-			//bombdrop: ["9M"], // <-- ADD
-			//armageddon: ["9M"], // <-- ADD
+			bombdrop: ["9M"], // <-- ADD
+			armageddon: ["9M"], // <-- ADD
 		}
 	},
 	popandawe:{
@@ -2518,8 +2518,8 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 
 			cannonblast: ["9M"],
 			shellshock: ["9M"],
-			//bombdrop: ["9M"], // <-- ADD
-			//clusterbombs: ["9M"], // <-- ADD
+			bombdrop: ["9M"], // <-- ADD
+			clusterbombs: ["9M"], // <-- ADD
 		}
 	},
 	blooncineration:{
@@ -2696,7 +2696,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 
 			cannonblast: ["9M"],
 			shellshock: ["9M"],
-			//homingmissile: ["9M"], // <-- ADD
+			homingmissile: ["9M"], // <-- ADD
 		}
 	},
 	bloonexclusionzone:{
@@ -3526,7 +3526,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			disable: ["9M"],
 			rapidspin: ["9M"],
 
-			//stickybomb: ["9M"], // <-- ADD
+			stickybomb: ["9M"], // <-- ADD
 		}
 	},
 	permanentbrew:{
@@ -3570,7 +3570,6 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			megadrain: ["9M"],
 			petaldance: ["9M"],
 			aromatherapy: ["9M"],
-			cottonguard: ["9M"],
 			cottonspore: ["9M"],
 			poisonpowder: ["9M"],
 			stunspore: ["9M"],
@@ -3599,6 +3598,8 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 
 			bellydrum: ["9M"],
 			amnesia: ["9M"],
+			coaching: ["9M"],
+			decorate: ["9M"],
 
 			earthpower: ["9M"],
 			earthquake: ["9M"],
@@ -3610,6 +3611,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			bugbuzz: ["9M"],
 			alluringvoice: ["9M"],
 			playrough: ["9M"],
+			bodypress: ["9M"],
 
 			taunt: ["9M"],
 			lightscreen: ["9M"],
@@ -3984,7 +3986,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			calmmind: ["9M"],
 			swordsdance: ["9M"],
 			honeclaws: ["9M"],
-			decorate: ["9M"], // CUT??
+			//decorate: ["9M"], // CUT??
 			tidyup: ["9M"], // CUT??
 
 			earthquake: ["9M"],
@@ -4471,7 +4473,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			afteryou: ["9M"],
 			haze: ["9M"],
 
-			//farwindarrow: ["9M"], // <-- ADD
+			farwindarrow: ["9M"], // <-- ADD
 		}
 	},
 	stormwratharchon:{
@@ -4564,7 +4566,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			trick: ["9M"],
 			afteryou: ["9M"],
 
-			//amperearrow: ["9M"], // <-- ADD
+			amperearrow: ["9M"], // <-- ADD
 		}
 	},
 	wintersmercy:{
@@ -4650,7 +4652,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			reflect: ["9M"],
 			trick: ["9M"],
 
-			//iceborearrow: ["9M"], // <-- ADD
+			iceborearrow: ["9M"], // <-- ADD
 		}
 	},
 	sentrychampion:{
@@ -5008,14 +5010,10 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			nastyplot: ["9M"],
 			irondefense: ["9M"],
 
-			seedbomb: ["9M"],
-			bulletseed: ["9M"],
 			ironhead: ["9M"],
 			heavyslam: ["9M"],
 			rockslide: ["9M"],
-			supercellslam: ["9M"],
 			bodypress: ["9M"],
-			tripleaxel: ["9M"],
 
 			wideguard: ["9M"],
 			stealthrock: ["9M"],

@@ -561,7 +561,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		name: "Grand Saboteur",
 		types: ["Dark"],
 		baseStats: { hp: 70, atk: 95, def: 85, spa: 95, spd: 80, spe: 115 },
-		abilities: { 0: "Magic Guard", H: "Telepathy" },
+		abilities: { 0: "Prankster" },
 		weightkg: 95.0,
 		eggGroups: ["Undiscovered"],
 	},
@@ -612,7 +612,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	monarchofstorms: {
 		gen: 9,
 		num: -1054,
-		name: "Archmage",
+		name: "Monarch of Storms",
 		types: ["Electric", "Flying"],
 		baseStats: { hp: 70, atk: 60, def: 90, spa: 105, spd: 80, spe: 75 },
 		abilities: { 0: "Drizzle" },
@@ -761,7 +761,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		gen: 9,
 		num: -1068,
 		name: "Perma-Spike",
-		types: ["Psychic", "Electric"],
+		types: ["Ground", "Steel"],
 		baseStats: { hp: 100, atk: 100, def: 90, spa: 70, spd: 140, spe: 10 },
 		abilities: { 0: "Wimp Out" }, // CHANGE TO SPIKE SETTER
 		weightkg: 100.0,
@@ -1032,7 +1032,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		num: -1091,
 		name: "Agent Jericho",
 		types: ["Dark"],
-		baseStats: { hp: 61, atk: 55, def: 55, spa: 125, spd: 125, spe: 109 },
+		baseStats: { hp: 70, atk: 129, def: 80, spa: 100, spd: 85, spe: 102 },
 		abilities: { 0: "Moxie", H: "Wimp Out" }, // <-- CHANGE TO FIREARMS EXPERT
 		weightkg: 100.0,
 		eggGroups: ["Undiscovered"],
