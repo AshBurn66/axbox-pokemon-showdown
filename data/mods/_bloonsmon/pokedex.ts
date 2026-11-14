@@ -763,7 +763,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		name: "Perma-Spike",
 		types: ["Ground", "Steel"],
 		baseStats: { hp: 100, atk: 100, def: 90, spa: 70, spd: 140, spe: 10 },
-		abilities: { 0: "Wimp Out" }, // CHANGE TO SPIKE SETTER
+		abilities: { 0: "Spike Setter" }, // CHANGE TO SPIKE SETTER
 		weightkg: 100.0,
 		eggGroups: ["Undiscovered"],
 	},
