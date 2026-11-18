@@ -178,25 +178,25 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 		type: "Ghost",
 		shortDesc: "+2 Attack, Sp. Attack, Speed for 1/2 user's max HP.",
 	},
-	// flurryofjustice: {
-	// 	num: -1009,
-	// 	accuracy: 100,
-	// 	basePower: 80,
-	// 	category: "Physical",
-	// 	name: "Flurry of Justice",
-	// 	pp: 15,
-	// 	priority: 0,
-	// 	flags: { protect: 1, mirror: 1, sound: 1, slicing: 1 },
-	// 	onAfterMoveSecondarySelf(pokemon) {
-	// 		if (pokemon.baseSpecies.baseSpecies === "Dan D'Monke" && !pokemon.transformed) {
-	// 			const dandmonkeForme = pokemon.species.id === 'dandmonke' ? 'dandmonke' : 'themasquedmacaque';
-	// 			pokemon.formeChange(dandmonkeForme, this.effect, false, '0', '[msg]');
-	// 		}
-	// 	},
-	// 	target: "normal",
-	// 	type: "Normal",
-	// 	contestType: "Beautiful",
-	// },
+	flurryofjustice: {
+		num: -1009,
+		accuracy: 100,
+		basePower: 80,
+		category: "Physical",
+		name: "Flurry of Justice",
+		pp: 15,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, sound: 1, slicing: 1 },
+		onAfterMoveSecondarySelf(pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === "Dan D'Monke" && !pokemon.transformed) {
+				const dandmonkeForme = pokemon.species.id === 'dandmonke' ? 'dandmonke' : 'themasquedmacaque';
+				pokemon.formeChange(dandmonkeForme, this.effect, false, '0', '[msg]');
+			}
+		},
+		target: "normal",
+		type: "Normal",
+		contestType: "Beautiful",
+	},
 	superbolt: {
 		num: -1010,
 		accuracy: 95,

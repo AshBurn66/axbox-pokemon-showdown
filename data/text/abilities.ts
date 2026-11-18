@@ -2341,8 +2341,8 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 	},
 	highacidity: {
 		name: "High Acidity",
-		desc: "This Pokemon's Poison-type moves deal super effective damage to Steel-type Pokemon",
-		shortDesc: "This Pokemon's Poison-type moves deal super effective damage to Steel types",
+		desc: "This Pokemon's Poison-type moves deal super effective damage to Steel-type Pokemon.",
+		shortDesc: "This Pokemon's Poison-type moves deal super effective damage to Steel types.",
 	},
 	piercingammo: {
 		name: "Piercing Ammo",
@@ -2371,7 +2371,7 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 	spikesetter: {
 		name: "Spike Setter",
 		desc: "At the end of every turn, this Pokemon attempts to set up a layer of Spikes on the opposing side.",
-		shortDesc: "At the end of the turn, sets up a layer of Spikes.",
+		shortDesc: "Attempts to set up a layer of Spikes at the end of every turn.",
 	},
 	bigsuck: {
 		name: "BIG SUCK",
@@ -2379,7 +2379,7 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 	},
 	freezeproof: {
 		name: "Freezeproof",
-		shortDesc: "This Pokemon is immune to Ice",
+		shortDesc: "This Pokemon is immune to Ice.",
 	},
 	absorbenergy: {
 		name: "Absorb Energy",

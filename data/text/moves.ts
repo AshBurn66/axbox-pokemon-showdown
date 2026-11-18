@@ -2443,20 +2443,6 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		start: "  {POKEMON} foresaw an attack!",
 		activate: "  {TARGET} took the Future Sight attack!",
 	},
-	stickybomb: {
-		name: "Sticky Bomb",
-		desc: "Deals damage two turns after this move is used. At the end of that turn, the damage is calculated at that time and dealt to the Pokemon at the position the target had when the move was used. If the user is no longer active at the time, damage is calculated based on the user's natural Special Attack stat, types, and level, with no boosts from its held item or Ability. Fails if this move, Future Sight, or Doom Desire is already in effect for the target's position.",
-		shortDesc: "Hits two turns after being used.",
-		gen4: {
-			desc: "Deals typeless damage that cannot be a critical hit two turns after this move is used. Damage is calculated against the target on use, and at the end of the final turn that damage is dealt to the Pokemon at the position the original target had at the time. Fails if this move, Future Sight, or Doom Desire is already in effect for the target's position.",
-		},
-		gen2: {
-			desc: "Deals typeless damage that cannot be a critical hit two turns after this move is used. Damage is calculated against the target on use, and at the end of the final turn that damage is dealt to the Pokemon at the position the original target had at the time. Fails if this move is already in effect for the target's position.",
-		},
-
-		start: "  {POKEMON} planted a bomb!",
-		activate: "  {TARGET} was blown up by the Sticky Bomb!",
-	},
 	gastroacid: {
 		name: "Gastro Acid",
 		desc: "Causes the target's Ability to be rendered ineffective as long as it remains active. If the target uses Baton Pass, the replacement will remain under this effect. If the target's Ability is As One, Battle Bond, Comatose, Disguise, Gulp Missile, Ice Face, Multitype, Power Construct, RKS System, Schooling, Shields Down, Stance Change, Tera Shift, Zen Mode, or Zero to Hero, this move fails, and receiving the effect through Baton Pass ends the effect immediately.",
@@ -7727,5 +7713,115 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 			desc: "Will always result in a critical hit.",
 			shortDesc: "Nearly always goes first. Always crits.",
 		},
+	},
+
+	// BloonsMon
+	blademaelstrom: {
+		name: "Blade Maelstrom",
+		shortDesc: "Hits adjacent Pokemon.",
+	},
+	gluestrike: {
+		name: "Glue Strike",
+		desc: "Lowers the user's Special Attack by 2 stages.",
+		shortDesc: "Lowers the user's Sp. Atk by 2. Hits foe(s).",
+	},
+	relentlessglue: {
+		name: "Relentless Glue",
+		desc: "Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Shed Tail, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Mortal Spin, Rapid Spin, or Substitute successfully. This effect is not stackable or reset by using this or another binding move.",
+		shortDesc: "Traps and damages the target for 4-5 turns.",
+
+		start: "  {POKEMON} became trapped in the relentless glue!",
+	},
+	impalingicicle: {
+		name: "Impaling Icicle",
+		desc: "This move is considered a pulse move and is boosted by Mega Launcher.",
+		shortDesc: "Boosted by Mega Launcher.",
+	},
+	spikestorm: {
+		name: "Spike Storm",
+		desc: "If this move is successful, it sets up a hazard on the opposing side of the field, damaging each opposing Pokemon that switches in, unless it is a Flying-type Pokemon or has the Levitate Ability. A maximum of three layers may be set, and opponents lose 1/8 of their maximum HP with one layer, 1/6 of their maximum HP with two layers, and 1/4 of their maximum HP with three layers, all rounded down. Can be removed from the opposing side if any Pokemon uses Tidy Up, or if any opposing Pokemon uses Mortal Spin, Rapid Spin, or Defog successfully, or is hit by Defog.",
+		shortDesc: "Sets a layer of Spikes on the opposing side.",
+	},
+	sacrificialtotem: {
+		name: "Sacrificial Totem",
+		desc: "Raises the user's Attack, Special Attack, and Speed by 2 stages in exchange for the user losing 1/2 of its maximum HP, rounded down. Fails if the user would faint or if its Attack, Special Attack, and Speed stat stages would not change.",
+		shortDesc: "+2 Attack, Sp. Atk, Speed for 1/2 user's max HP.",
+	},
+	flurryofjustice: {
+		name: "Flurry of Justice",
+		desc: "If this move is successful on at least one target and the user is a Dan D'Monke, it changes to The Masqued Macaque if it is currently in Dan D'Monke Forme, or changes to Dan D'Monke Forme if it is currently The Masqued Macaque. This forme change does not happen if the Dan D'Monke has the Sheer Force Ability. The Masqued Macaque reverts to the Dan D'Monke Forme when Dan D'Monke is not active.",
+		shortDesc: "Causes Dan D'Monke to switch between his formes.",
+	},
+	superbolt: {
+		name: "Super Bolt",
+		desc: "Has a higher chance for a critical hit.",
+		shortDesc: "High critical hit ratio.",
+	},
+	farwindarrow: {
+		name: "Farwind Arrow",
+		desc: "Has a 20% chance to raise the user's Special Attack by 1 stage.",
+		shortDesc: "20% chance to raise Sp. Atk by 1.",
+	},
+	amperearrow: {
+		name: "Ampere Arrow",
+		desc: "Has a 20% chance to raise the user's Special Attack by 1 stage.",
+		shortDesc: "20% chance to raise Sp. Atk by 1.",
+	},
+	iceborearrow: {
+		name: "Icebore Arrow",
+		desc: "Has a 20% chance to raise the user's Attack by 1 stage.",
+		shortDesc: "20% chance to raise Atk by 1.",
+	},
+	dynamitethrow: {
+		name: "Dynamite Throw",
+		shortDesc: "No additional effect.",
+	},
+	cannonblast: {
+		name: "Cannon Blast",
+		desc: "Has a 10% chance to lower the target's Defense by 1 stage.",
+		shortDesc: "10% chance to lower the target's Defense by 1.",
+	},
+	bombdrop: {
+		name: "Bomb Drop",
+		desc: "Has a 10% chance to lower the target's Special Defense by 1 stage.",
+		shortDesc: "10% chance to lower the target's Sp. Def by 1.",
+	},
+	homingmissile: {
+		name: "Homing Missile",
+		shortDesc: "This move does not check accuracy.",
+	},
+	clusterbombs: {
+		name: "Cluster Bombs",
+		desc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times. If the user is holding Loaded Dice, this move will hit 4-5 times.",
+		shortDesc: "Hits 2-5 times in one turn.",
+	},
+	armageddon: {
+		name: "Armageddon",
+		desc: "Lowers the user's Special Attack by 2 stages. Has a 10% chance to badly poison the target.",
+		shortDesc: "User: Sp. Atk 2; Target: 10% to badly poison.",
+	},
+	preemptivestrike: {
+		name: "Pre-Emptive Strike",
+		desc: "Fails unless it is the user's first turn on the field.",
+		shortDesc: "Nearly always goes first. First turn out only.",
+	},
+	shellshock: {
+		name: "Shell Shock",
+		desc: "Has a 50% chance to paralyze the target.",
+		shortDesc: "50% chance to paralyze the target.",
+	},
+	stickybomb: {
+		name: "Sticky Bomb",
+		desc: "Deals damage two turns after this move is used. At the end of that turn, the damage is calculated at that time and dealt to the Pokemon at the position the target had when the move was used. If the user is no longer active at the time, damage is calculated based on the user's natural Special Attack stat, types, and level, with no boosts from its held item or Ability. Fails if this move, Future Sight, or Doom Desire is already in effect for the target's position.",
+		shortDesc: "Hits two turns after being used.",
+		gen4: {
+			desc: "Deals typeless damage that cannot be a critical hit two turns after this move is used. Damage is calculated against the target on use, and at the end of the final turn that damage is dealt to the Pokemon at the position the original target had at the time. Fails if this move, Future Sight, or Doom Desire is already in effect for the target's position.",
+		},
+		gen2: {
+			desc: "Deals typeless damage that cannot be a critical hit two turns after this move is used. Damage is calculated against the target on use, and at the end of the final turn that damage is dealt to the Pokemon at the position the original target had at the time. Fails if this move is already in effect for the target's position.",
+		},
+
+		start: "  {POKEMON} planted a bomb!",
+		activate: "  {TARGET} was blown up by the Sticky Bomb!",
 	},
 };

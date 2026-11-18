@@ -202,7 +202,7 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 			}
 		},
 		flags: { breakable: 1 },
-		name: "Energy Absorb",
+		name: "Absorb Energy",
 		rating: 3.5,
 		num: -1013,
 	},
