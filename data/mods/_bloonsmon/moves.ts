@@ -403,4 +403,11 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 		type: "Fire",
 		contestType: "Clever",
 	},
+
+	// Techno Blast Nerf
+	technoblast: {
+		inherit: true,
+		accuracy: 90,
+		basePower: 100,
+	}
 }

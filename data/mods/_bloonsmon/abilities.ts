@@ -164,4 +164,76 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		rating: 4.5,
 		num: -1010,
 	},
+
+	bigsuck: {
+		onBasePowerPriority: 23,
+		onBasePower(basePower, attacker, defender, move) {
+			if (move.flags['wind']) {
+				this.debug('BIG SUCK boost');
+				return this.chainModify([6144, 4096]);
+			}
+		},
+		flags: {},
+		name: "BIG SUCK",
+		rating: 3,
+		num: -1011,
+	},
+
+	freezeproof: {
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Ice') {
+				this.add('-immune', target, '[from] ability: Freezeproof');
+				return null;
+			}
+		},
+		flags: { breakable: 1 },
+		name: "Freezeproof",
+		rating: 3.5,
+		num: -1012,
+	},
+
+	absorbenergy: {
+		onTryHit(target, source, move) {
+			if (target !== source && (move.type === 'Electric' || move.type === 'Fire')) {
+				if (!this.heal(target.baseMaxhp / 4)) {
+					this.add('-immune', target, '[from] ability: Energy Absorb');
+				}
+				return null;
+			}
+		},
+		flags: { breakable: 1 },
+		name: "Energy Absorb",
+		rating: 3.5,
+		num: -1013,
+	},
+
+	recursivecluster: {
+		onPrepareHit(source, target, move) {
+			if (move.category === 'Status' || move.multihit || move.flags['noparentalbond'] || move.flags['charge'] ||
+				move.flags['futuremove'] || move.spreadHit || move.isZ || move.isMax) return;
+			move.multihit = 2;
+			move.multihitType = 'parentalbond';
+		},
+		// Damage modifier implemented in BattleActions#modifyDamage()
+		onSourceModifySecondaries(secondaries, target, source, move) {
+			if (move.multihitType === 'parentalbond' && move.id === 'secretpower' && move.hit < 2) {
+				// hack to prevent accidentally suppressing King's Rock/Razor Fang
+				return secondaries.filter(effect => effect.volatileStatus === 'flinch');
+			}
+		},
+		flags: {},
+		name: "Recursive Cluster",
+		rating: 4.5,
+		num: -1014,
+	},
+
+	piercingammo: {
+		onModifyMove(move) {
+			delete move.flags['protect'];
+		},
+		flags: {},
+		name: "Piercing Ammo",
+		rating: 2,
+		num: -1015,
+	},
 }
