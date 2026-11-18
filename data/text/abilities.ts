@@ -832,20 +832,6 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 
 		damage: "#roughskin",
 	},
-	orbitingglaives: { 
-		name: "Orbiting Glaives",
-		desc: "Pokemon making contact with this Pokemon lose 1/8 of their maximum HP, rounded down.",
-		shortDesc: "Pokemon making contact with this Pokemon lose 1/8 of their max HP.",
-
-		damage: "#roughskin",
-	},
-	razorrotors: {
-		name: "Razor Rotors",
-		desc: "Pokemon making contact with this Pokemon lose 1/8 of their maximum HP, rounded down.",
-		shortDesc: "Pokemon making contact with this Pokemon lose 1/8 of their max HP.",
-
-		damage: "#roughskin",
-	},
 	ironfist: {
 		name: "Iron Fist",
 		desc: "This Pokemon's punch-based attacks have their power multiplied by 1.2.",
@@ -2332,4 +2318,85 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 
 		activate: "  {POKEMON} extends {MOVE} by 2 turns!",
 	},
+
+	// BloonsMon
+	orbitingglaives: { 
+		name: "Orbiting Glaives",
+		desc: "Pokemon making contact with this Pokemon lose 1/8 of their maximum HP, rounded down.",
+		shortDesc: "Pokemon making contact with this Pokemon lose 1/8 of their max HP.",
+
+		damage: "#roughskin",
+	},
+	razorrotors: {
+		name: "Razor Rotors",
+		desc: "Pokemon making contact with this Pokemon lose 1/8 of their maximum HP, rounded down.",
+		shortDesc: "Pokemon making contact with this Pokemon lose 1/8 of their max HP.",
+
+		damage: "#roughskin",
+	},
+	recursivecluster: {
+		name: "Recursive Cluster",
+		desc: "This Pokemon's damaging moves become multi-hit moves that hit twice. The second hit has its damage quartered. Does not affect Doom Desire, Dragon Darts, Dynamax Cannon, Endeavor, Explosion, Final Gambit, Fling, Future Sight, Ice Ball, Rollout, Self-Destruct, any multi-hit move, any move that has multiple targets, or any two-turn move.",
+		shortDesc: "This Pokemon's damaging moves hit twice. The second hit has its damage quartered.",
+	},
+	highacidity: {
+		name: "High Acidity",
+		desc: "This Pokemon's Poison-type moves deal super effective damage to Steel-type Pokemon",
+		shortDesc: "This Pokemon's Poison-type moves deal super effective damage to Steel types",
+	},
+	piercingammo: {
+		name: "Piercing Ammo",
+		shortDesc: "This Pokemon's attacking moves ignore a target's protection and deal 1/4 the usual damage.",
+	},
+	signalflare: {
+		name: "Signal Flare",
+		desc: "This Pokemon's special moves have a 30% chance of burning. This effect comes after a move's inherent secondary effect chance.",
+		shortDesc: "This Pokemon's special moves have a 30% chance of burning.",
+	},
+	berserkerbrew: {
+		name: "Berserker Brew",
+		desc: "This Pokemon's allies have the power of their moves multiplied by 1.3. This affects Doom Desire and Future Sight, even if the user is not on the field.",
+		shortDesc: "This Pokemon's allies have the power of their moves multiplied by 1.3.",
+	},
+	freezeforce: {
+		name: "Freeze Force",
+		desc: "If Snowscape is active, this Pokemon's Ice- and Water-type attacks have their power multiplied by 1.5.",
+		shortDesc: "This Pokemon's Ice/Water attacks do 1.5× in Snowscape.",
+	},
+	bloontrap: {
+		name: "Bloon Trap",
+		desc: "If this Pokemon is hit by a contact move, the attacker is trapped on the field for the next turn.",
+		shortDesc: "When hit by a contact move, the attacker is trapped for a turn.",
+	},
+	spikesetter: {
+		name: "Spike Setter",
+		desc: "At the end of every turn, this Pokemon attempts to set up a layer of Spikes on the opposing side.",
+		shortDesc: "At the end of the turn, sets up a layer of Spikes.",
+	},
+	bigsuck: {
+		name: "BIG SUCK",
+		shortDesc: "This Pokemon's wind moves have their power multiplied by 1.5.",
+	},
+	freezeproof: {
+		name: "Freezeproof",
+		shortDesc: "This Pokemon is immune to Ice",
+	},
+	absorbenergy: {
+		name: "Absorb Energy",
+		desc: "This Pokemon is immune to Fire- and Electric-type moves and restores 1/4 of its maximum HP, rounded down, when hit by an Fire- or Electric-type move.",
+		shortDesc: "This Pokemon heals 1/4 of its max HP when hit by Fire/Elec moves; Fire/Elec immunity.",
+	},
+	firearmsexpert: {
+		name: "Firearms Expert",
+		shortDesc: "This Pokemon's bullet/bomb moves have their power multiplied by 1.2.",
+	},
+	explosive: {
+		name: "Explosive",
+		shortDesc: "This Pokemon's bullet/bomb moves have their power multiplied by 1.3.",
+	},
+	nuclear: {
+		name: "Nuclear",
+		shortDesc: "This Pokemon's bullet/bomb moves have their power multiplied by 1.5.",
+	},
+
 };

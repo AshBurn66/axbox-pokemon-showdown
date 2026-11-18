@@ -228,8 +228,11 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 	},
 
 	piercingammo: {
-		onModifyMove(move) {
-			delete move.flags['protect'];
+		onHitProtect(source, target, move) {
+			if (move.category == "Physical" || move.category == "Special") {
+				target.getMoveHitData(move).bypassProtect = this.effect;
+				return false;
+			}
 		},
 		flags: {},
 		name: "Piercing Ammo",
