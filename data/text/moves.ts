@@ -7798,7 +7798,7 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	armageddon: {
 		name: "Armageddon",
 		desc: "Lowers the user's Special Attack by 2 stages. Has a 10% chance to badly poison the target.",
-		shortDesc: "User: Sp. Atk 2; Target: 10% to badly poison.",
+		shortDesc: "User: Sp. Atk -2; Target: 10% to badly poison.",
 	},
 	preemptivestrike: {
 		name: "Pre-Emptive Strike",

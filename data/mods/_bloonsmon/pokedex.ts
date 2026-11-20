@@ -789,7 +789,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		weightkg: 1650.0,
 		eggGroups: ["Undiscovered"],
 	},
-	pouakai: {
+	pouākai: {
 		gen: 9,
 		num: -1071,
 		name: "Pouākai",

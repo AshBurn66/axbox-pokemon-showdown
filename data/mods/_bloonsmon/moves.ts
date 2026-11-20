@@ -48,7 +48,7 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 			status: 'par',
 		},
 		target: "normal",
-		type: "Fire",
+		type: "Normal",
 		contestType: "Tough",
 		shortDesc: "50% chance to paralyze the target.",
 	},

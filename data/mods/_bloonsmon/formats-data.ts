@@ -212,7 +212,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	giganotosaurus: {
 		tier: "Bloons",
 	},
-	pouakai: {
+	pouākai: {
 		tier: "Bloons",
 	},
 	bloonchipper: {

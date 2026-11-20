@@ -5229,7 +5229,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			psychup: ["9M"],
 		}
 	},
-	pouakai:{
+	pouākai:{
 		learnset: {
 			protect: ["9M"],
 			substitute: ["9M"],
